@@ -32,6 +32,7 @@ class myClass():
  def meth2(self, something):
   print ("hi in 2nd mehtod" + something)
 
+
 c=myClass();
 c.meth1()
 c.meth2(" hi friends")
