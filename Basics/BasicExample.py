@@ -20,9 +20,11 @@ for x in range(5,11):
  print (x)
 
 days=["m", "t", "w"]
-
+#for loop printing both index and value
 for i, d in enumerate(days):
  print (i, d)
+
+# for loop printing value
 for i in days:
  print (i)
 
