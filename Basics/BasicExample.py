@@ -23,7 +23,8 @@ days=["m", "t", "w"]
 
 for i, d in enumerate(days):
  print (i, d)
-
+for i in days:
+ print (i)
 
 # class declaration
 class myClass():
