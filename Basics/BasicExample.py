@@ -38,4 +38,8 @@ class myClass():
 
 c=myClass();
 c.meth1()
-c.meth2(" hi friends")
+c.meth2(" Python uses indentation")
+
+
+
+
