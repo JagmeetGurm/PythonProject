@@ -31,6 +31,7 @@ for i in days:
 # class declaration
 class myClass():
 #self is equivalent to this in c++
+#function definition
  def meth1(self):
   print ("inside mehtod1 of class")
  def meth2(self, something):
