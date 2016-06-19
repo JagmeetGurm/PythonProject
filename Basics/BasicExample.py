@@ -34,7 +34,7 @@ class myClass():
  def meth1(self):
   print ("inside mehtod1 of class")
  def meth2(self, something):
-  print ("hi in 2nd mehtod" + something+ "hi")
+  print ("hi in 2nd mehtod" + something+ "hi"+ "just another example")
 
 
 c=myClass();
