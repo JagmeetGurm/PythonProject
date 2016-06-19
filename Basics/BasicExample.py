@@ -6,7 +6,8 @@ def func1():
  print ("I my first func")
  print ("in the func")
 
-#func1();
+#func1 call
+func1();
 
 def sqa(num):
  return num*num;
