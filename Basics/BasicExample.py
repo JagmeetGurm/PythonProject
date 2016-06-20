@@ -37,6 +37,7 @@ class myClass():
   print ("inside mehtod1 of class")
  def meth2(self, something):
   print ("hi in 2nd mehtod" + something+ "hi"+ "just another example")
+#3rd method definition of our class
  def meth3(self):
   print("this is the 3rd method")
 
