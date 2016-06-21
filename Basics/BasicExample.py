@@ -41,6 +41,9 @@ class myClass():
  def meth3(self):
   print("this is the 3rd method")
 
+class anotherClass(myClass): 
+ def meth2(self):
+  print ("anotherCalass meth2")
 
 c=myClass();
 c.meth1()
