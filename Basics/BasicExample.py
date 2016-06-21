@@ -44,11 +44,18 @@ class myClass():
 class anotherClass(myClass): 
  def meth2(self):
   print ("anotherCalass meth2")
+ def meth1(self):
+  myClass.meth1(self);
+  print("another class meth1")
 
 c=myClass();
 c.meth1()
 c.meth2(" Python uses indentation")
-c.meth3()
+c2=anotherClass()
+c2.meth1()
+print("\n")
+
+c2.meth2()
 
 
 
