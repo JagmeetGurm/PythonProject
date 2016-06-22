@@ -64,8 +64,11 @@ f=open("textFile.txt", "r")
 
 #for i in range(10):
  #f.write("this is line %d \n" % (i+1))
-contents=f.read()
-print (contents)
+#contents=f.read()
+fl=f.readlines()
+for x in fl:
+ print x
+#print (contents)
 f.close()
 
 
