@@ -58,5 +58,16 @@ print("\n")
 
 c2.meth2()
 
+print("\n\n\n")
+# 
+f=open("textFile.txt", "w+")
+
+for i in range(10):
+ f.write("this is line %d \n" % (i+1))
+
+f.close()
+
+
+
 
 
