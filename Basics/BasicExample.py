@@ -68,6 +68,7 @@ f=open("textFile.txt", "r")
  #f.write("this is line %d \n" % (i+1))
 #reading as a string the complete file
 #contents=f.read()
+#reading line by line
 fl=f.readlines()
 for x in fl:
  print (x)
