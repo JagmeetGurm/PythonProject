@@ -49,6 +49,8 @@ class anotherClass(myClass):
   myClass.meth1(self);
   print("another class meth1")
 
+import os
+from os import path
 c=myClass();
 c.meth1()
 c.meth2(" Python uses indentation")
@@ -59,7 +61,7 @@ print("\n")
 c2.meth2()
 
 print("\n\n\n")
-# 
+# reading file
 f=open("textFile.txt", "r")
 
 #for i in range(10):
@@ -67,10 +69,17 @@ f=open("textFile.txt", "r")
 #contents=f.read()
 fl=f.readlines()
 for x in fl:
- print x
+ print (x)
 #print (contents)
 f.close()
+print(os.name);
+print("item exists: " + str(path.exists("textFile.txt")))
 
+#fetching internet data
+import urllib.request
+
+webUrl=urllib.request.urlopen("http://joemarini.com")
+print( "result code" + str(webUrl.getcode()))
 
 
 
